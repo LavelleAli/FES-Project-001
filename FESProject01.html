@@ -9,17 +9,18 @@
 <body>
     <section>
         <nav>
-            <img src="FES.svg" alt="">
+            <img src="./FESP1 ASSETS/FES.svg" class="logo" alt="">
             <ul>
                 <li><a href="about">About</a></li>
-                <li><a href="discord"></a>Discord</li>
+                <li><a href="discord">Discord</a></li>
                 <li><a href="contact">Contact</a></li>
             </ul>
         </nav>
-        <head>
-            <div>
-                <h1>Best place to learn front-end</h1>
-                <p>Go from being an absolute beginner 
+        <header>
+            <div class="row">
+                <div>
+                <h1>Best place to learn Frontend</h1>
+                <p class="subheader">Go from being an absolute beginner
                     to being a pro with a simplified 
                     process!</p>
                 <button>Start Now</button>
@@ -28,60 +29,69 @@
                 <img src="./FESP1 ASSETS/laptop.png" 
                 alt="Home page image">
             </figure>
-        </head>
+        </div>
+        </header>
     </section>
 
 <main>
     <section id="about">
         <h2>About</h2>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Hic, impedit.</p>
+        <div class="row">
+        <div class="section__discription">
+        <div class="section__discription--wrapper">
+            <p class="section__discription--para">Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Hic, impedit.
+            </p>
 
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Harum, hic.</p>
+            <p class="section__discription--para">Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Harum, hic.
+            </p>
         </div>
-        <figure>
+        <figure class="about__img--wrapper">
             <img src="./FESP1 ASSETS/about.jpg" alt="About">
         </figure>
+        </div>
+        </div>
     </section>
 
     <section id="discord">
         <h2>Discord</h2>
-        <div>
-            <p>Lorem, ipsum dolor sit amet consectetur 
+        <div class="row">
+        <div class="section__discription">
+        <div class="section__discription--wrapper">
+            <p class="section__discription--para">Lorem, ipsum dolor sit amet consectetur 
                 adipisicing elit. Atque, nihil?
             </p>
-            <p>Lorem ipsum dolor sit, amet consectetur 
+            <p class="section__discription--para">Lorem ipsum dolor sit, amet consectetur 
                 adipisicing elit. Laudantium, expedita.
             </p>
         </div>
-        <figure>
+        <figure class="about__img--wrapper">
             <img src="./FESP1 ASSETS/discord.png" alt="Discord">
         </figure>
+        </div>
+        </div>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
         <form action="">
             <span>Email</span>
-            <input type="text" placeholder="123coding@example.com">
+            <input type="email" placeholder="123coding@example.com">
             <span>Message</span>
-            <textarea type="text" placeholder= "type message here">
-
+            <textarea type="text" placeholder="type message here">
             </textarea>
-
+            <button>Contact Us!</button>
         </form>
-
     </section>
 </main>
 <footer>
-    <img src="./FESP1 ASSETS/FES.svg" alt="">
-    <div>
-        <a href="about">About</a>
-        <a href="discord">Discord</a>
-        <a href="contact">Contact</a>
-        <a href="">Courses</a>
+    <img class="footer__logo" src="./FESP1 ASSETS/FES.svg" alt="">
+    <div class="footer__links">
+        <a class="footer__links" href="about">About</a>
+        <a class="footer__links" href="discord">Discord</a>
+        <a class="footer__links" href="contact">Contact</a>
+        <a class="footer__links" href="">Courses</a>
     </div>
     <p> &copy; FrontEnd Simplified</p>
 </footer>
